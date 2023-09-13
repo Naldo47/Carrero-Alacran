@@ -1,6 +1,48 @@
+
 body {
-    background-image: url("./img/Screen\ Shot\ 2023-08-30\ at\ 3.19.24\ PM.png");
+    /* The image used */
+    background-image: url("./img/carrero-pic2.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-   }
+  }
+
+  h1,h2 {
+    background-color: antiquewhite;
+  }
+    
+  
+  button {
+    font-family: 'Bungee Shade', cursive;
+    width: 150px;
+    margin: 0 .5%;
+    font-size: 89%;
+    color:black;
+    background-color:#9900FF ;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #0a549e;
+  }
+  
+  
+ button:hover {
+    background-color:#CC33FF  ;
+    color: rgb(185, 136, 136);
+  }
+  
+  
+  button:active {
+    font-size: 60%;
+    box-shadow: 0 0 10px #000 inset;
+  }
+  
+ 
+  button:focus  {
+    outline: none;
+    border-color: #8ac4ff;
+  }
+
+  .movie:hover {
+    font-size: 60%;
+  }
+
+  
