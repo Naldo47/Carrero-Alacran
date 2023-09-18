@@ -1,17 +1,17 @@
 
 body {
     /* The image used */
-    background-image: url("./img/carrero-pic2.png");
+    background-image: url("./img/Carrero-imgOnline.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
   }
 
-  h1,h2 {
+  /* h1,h2 {
     background-color: antiquewhite;
-  }
+  } */
     
-  
+  /* header button */
   button {
     font-family: 'Bungee Shade', cursive;
     width: 150px;
