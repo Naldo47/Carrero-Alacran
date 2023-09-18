@@ -1,4 +1,16 @@
 
+body {
+    background-image: url("./img/87eb913e-bdbf-4289-9c18-28c071373185-vtop_freeze_frame.pdf");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+   
+   }
+
+   h1 {
+    color: brown;
+   }
 
 body {
     /* The image used */
@@ -8,42 +20,25 @@ body {
     background-position: center;
   }
 
-  nav {
-    display: flex;
-    justify-content: right;
-   
-  }
-
-  h1 {
-    color: rgb(60, 128, 168);
-    font-family: 'Fugaz One', cursive;
-    font-size: 90px;  text-align: left;
-    line-height: 2.0;
-  }
-
-  h2 {
-    color:  rgb(60, 128, 168);
-    font-size: 30px;
-    text-align: left;
-    line-height: 2.0;
-  }
+  /* h1,h2 {
+    background-color: antiquewhite;
+  } */
     
   /* header button */
   button {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Bungee Shade', cursive;
     width: 150px;
     margin: 0 .5%;
-    font-size: 95%;
-    color:red;
-    background-color:#4ab7e2;
+    font-size: 89%;
+    color:black;
+    background-color:#9900FF ;
     border-radius: 15px;
     box-shadow: 0 0 10px #0a549e;
-    
   }
   
   
  button:hover {
-    background-color:#ebeff1;
+    background-color:#CC33FF  ;
     color: rgb(185, 136, 136);
   }
   
@@ -59,8 +54,7 @@ body {
     border-color: #8ac4ff;
   }
 
-  /* .movie:hover {
+  .movie:hover {
     font-size: 60%;
-  } */
+  }
 
-  
