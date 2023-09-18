@@ -1,6 +1,13 @@
+
 body {
-    background-image: url("./img/Screen\ Shot\ 2023-08-30\ at\ 3.19.24\ PM.png");
+    background-image: url("./img/87eb913e-bdbf-4289-9c18-28c071373185-vtop_freeze_frame.pdf");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
+   
+   }
+
+   h1 {
+    color: brown;
    }
