@@ -2,7 +2,7 @@
 
 body {
     /* The image used */
-    background-image: url("./img/Carrero-imgOnline.jpeg");
+    background-image: url("./img/pexels-cottonbro-studio-4488637.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -13,19 +13,22 @@ body {
     font-family: "Fugaz One", cursive;
     font-size: 90px;
     text-align: left;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
    
   }
 
   h2 {
     color: rgb(60, 128, 168);
     font-family: "Fugaz One", cursive;
-    font-size: 30px;
-    margin: 2px 2px 5px 0px; 
    }
 
-   .social {
-    color: #0a549e;
+   h3 {
+    color: rgb(60, 128, 168);
+    font-family: "Fugaz One", cursive;
+    font-size: 20px
    }
+
+  
 
    nav {
     display: flex;
@@ -40,14 +43,14 @@ body {
     margin: 0 .5%;
     font-size: 89%;
     color:black;
-    background-color:#4973c0 ;
+    background-color:#636cbdec ;
     border-radius: 15px;
     box-shadow: 0 0 10px #0a549e;
   }
   
   
  button:hover {
-    background-color:#CC33FF  ;
+    background-color:#a5b7f3  ;
     color: rgb(185, 136, 136);
   }
   
@@ -63,7 +66,20 @@ body {
     border-color: #8ac4ff;
   }
 
-  /* .movie:hover {
-    font-size: 60%;
-  } */
+ img {
+  /* border: 6px solid #b15c5c;
+  border-radius: 2px;
+  padding: 2px;
+  width: 300px;
+  text-align: center; */
+ 
+    width: 275px;
+    background-color:#2c36c2 ;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #b7b8c5;
+ }
+
+ img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+ }
 
