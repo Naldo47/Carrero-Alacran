@@ -1,16 +1,4 @@
 
-body {
-    background-image: url("./img/87eb913e-bdbf-4289-9c18-28c071373185-vtop_freeze_frame.pdf");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
-   
-   }
-
-   h1 {
-    color: brown;
-   }
 
 body {
     /* The image used */
@@ -20,18 +8,39 @@ body {
     background-position: center;
   }
 
-  /* h1,h2 {
-    background-color: antiquewhite;
-  } */
+  h1 {
+    color: rgb(60, 128, 168);
+    font-family: "Fugaz One", cursive;
+    font-size: 90px;
+    text-align: left;
+   
+  }
+
+  h2 {
+    color: rgb(60, 128, 168);
+    font-family: "Fugaz One", cursive;
+    font-size: 30px;
+    margin: 2px 2px 5px 0px; 
+   }
+
+   .social {
+    color: #0a549e;
+   }
+
+   nav {
+    display: flex;
+    justify-content: right;
+   }
+ 
     
   /* header button */
   button {
-    font-family: 'Bungee Shade', cursive;
+    font-family: "Fugaz One", cursive;
     width: 150px;
     margin: 0 .5%;
     font-size: 89%;
     color:black;
-    background-color:#9900FF ;
+    background-color:#4973c0 ;
     border-radius: 15px;
     box-shadow: 0 0 10px #0a549e;
   }
@@ -54,7 +63,7 @@ body {
     border-color: #8ac4ff;
   }
 
-  .movie:hover {
+  /* .movie:hover {
     font-size: 60%;
-  }
+  } */
 
