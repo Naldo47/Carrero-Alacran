@@ -2,7 +2,7 @@
 
 body {
     /* The image used */
-    background-image: url("./img/Carrero-imgOnline.jpeg");
+    background-image: url("./img/Screen\ Shot\ 2023-10-15\ at\ 6.01.34\ PM.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -39,26 +39,28 @@ body {
   
 /* part of button */
    nav {
-    display: flex;
-    justify-content: right;
+    /* display: flex;
+    justify-content: left; */
+    padding-top: 200px;
+    padding-bottom: 300px;
    }
  
     
   /* header button */
   button {
-    font-family: "Fugaz One", cursive;
+    font-family: 'Fugaz One', sans-serif;
     width: 150px;
     margin: 0 .5%;
     font-size: 89%;
-    color:black;
-    background-color:#636cbdec ;
+
+    background-color:white ;
     border-radius: 15px;
-    box-shadow: 0 0 10px #0a549e;
+    box-shadow: 0 0 10px #b91e1e;
   }
   
   
  button:hover {
-    background-color:#a5b7f3  ;
+    background-color:#e3e5ec  ;
     color: rgb(185, 136, 136);
   }
   
@@ -71,20 +73,21 @@ body {
  
   button:focus  {
     outline: none;
-    border-color: #8ac4ff;
+    border-color: #c22b2b;
   }
 
+
+/* img of Detailing and Hojalateria */
  .img1 {
-  /* border: 6px solid #b15c5c;
+  border: 6px solid #b15c5c;
   border-radius: 2px;
   padding: 2px;
   width: 300px;
-  text-align: center; */
- 
-    width: 275px;
-    background-color:#2c36c2 ;
-    border-radius: 25px;
-    box-shadow: 0 0 20px #b7b8c5;
+  text-align: center;
+  width: 275px;
+  background-color:rgb(167, 56, 56) ;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #b7b8c5;
  }
 
  .img1:hover {
