@@ -23,9 +23,11 @@ body {
    }
 
    h3 {
-    color: rgb(60, 128, 168);
+    color: rgb(209, 217, 221);
     font-family: "Fugaz One", cursive;
-    font-size: 20px
+    font-size: 20px;
+    margin-left: 75%;
+    
    }
 
    .social {
@@ -43,6 +45,7 @@ body {
     justify-content: left; */
     padding-top: 200px;
     padding-bottom: 300px;
+    margin-left: 17%;
    }
  
     
@@ -79,15 +82,16 @@ body {
 
 /* img of Detailing and Hojalateria */
  .img1 {
-  border: 6px solid #b15c5c;
+  /* border: 6px solid #b15c5c; */
   border-radius: 2px;
   padding: 2px;
   width: 300px;
-  text-align: center;
+  /* text-align: center; */
   width: 275px;
-  background-color:rgb(167, 56, 56) ;
+  /* background-color:rgb(167, 56, 56) ; */
   border-radius: 25px;
   box-shadow: 0 0 20px #b7b8c5;
+  margin-left: 75%;
  }
 
  .img1:hover {
